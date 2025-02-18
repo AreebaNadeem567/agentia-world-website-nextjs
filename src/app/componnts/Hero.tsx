@@ -51,16 +51,8 @@ const Hero = () => {
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 1, delay: 0.5 }}
         >
-          {/* <div className="w-2.5 h-2.5 bg-purple-500 rounded-full"></div>
-          <p className="text-purple-500 text-xs sm:text-sm">POWERED BY PANAVERSITY</p> */}
-          {/* Top Badge */}
-       <div className="inline-flex items-center rounded-full border border-purple-500/20 bg-black/60 px-4 py-1.5 text-sm text-purple-300 backdrop-blur-xl">
-          <span className="relative flex h-2 w-2 mr-2">
-          <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-purple-400 opacity-75"></span>
-            <span className="relative inline-flex rounded-full h-2 w-2 bg-purple-500"></span>
-          </span>
-        POWERED BY PANAVERSITY
-       </div>
+         <div className="w-2.5 h-2.5 bg-purple-500 rounded-full"></div>
+          <p className="text-purple-500 text-xs sm:text-sm">POWERED BY PANAVERSITY</p> 
         </motion.div>
 
         {/* Heading */}
